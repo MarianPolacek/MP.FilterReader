@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>MP.FilterReader</id>
+    <version>0.1</version>
+    <authors>Marian Polacek</authors>
+    <owners>Marian Polacek</owners>
+    <projectUrl>https://github.com/MarianPolacek/MP.FilterReader</projectUrl>
+    <licenseUrl>https://github.com/MarianPolacek/MP.FilterReader/blob/master/LICENSE</licenseUrl>
+    <description>.NET wrapper on top of unmanaged IFilter</description>
+    <language>en-US</language>
+  </metadata>
+  <!-- Example of explicit file inclusion -->
+  <files>
+    <file src="..\Src\MP.FilterReader\bin\release\*.dll" target="lib\net45" />
+  </files>
+</package>
