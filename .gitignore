@@ -106,3 +106,6 @@ UpgradeLog*.XML
 
 # Directory for automatically generated NuGet package files
 NuGetPackages
+
+# Directory for nuget packages
+[Pp]ackages/
